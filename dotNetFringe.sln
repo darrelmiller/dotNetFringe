@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates", "Templates\Templates.csproj", "{3BA09906-713E-4A97-9E72-84AD247D7A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi", "ServiceApi\ServiceApi.csproj", "{7464E514-667D-4B43-BF6D-F7F8C9E4CD82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTypes", "MediaTypes\MediaTypes.csproj", "{1B5F5FB3-71A1-4233-964D-61E23D363CFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-CreatingUrls", "1-CreatingUrls", "{7F83103C-1089-4953-9D70-14C2DFD4548A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-ConsumingAPIs", "2-ConsumingAPIs", "{262BA8D3-B18B-43B6-9879-999161EBE49B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-UsingLinks", "3-UsingLinks", "{4B771E12-016C-490A-AC45-562DFBC3795D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-ReusableMediaTypes", "4-ReusableMediaTypes", "{12B39502-19B9-4009-8683-506D4CA48FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubWebPack", "GitHubLib\GitHubWebPack.csproj", "{4B1C40F5-0DC9-4CC0-9CBA-ACF94646A1AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitLinksConsole", "GitLinksConsole\GitLinksConsole.csproj", "{89128916-71C8-4C22-880C-49EE7E0D8C10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BA09906-713E-4A97-9E72-84AD247D7A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA09906-713E-4A97-9E72-84AD247D7A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA09906-713E-4A97-9E72-84AD247D7A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA09906-713E-4A97-9E72-84AD247D7A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7464E514-667D-4B43-BF6D-F7F8C9E4CD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7464E514-667D-4B43-BF6D-F7F8C9E4CD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7464E514-667D-4B43-BF6D-F7F8C9E4CD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7464E514-667D-4B43-BF6D-F7F8C9E4CD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5F5FB3-71A1-4233-964D-61E23D363CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5F5FB3-71A1-4233-964D-61E23D363CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5F5FB3-71A1-4233-964D-61E23D363CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5F5FB3-71A1-4233-964D-61E23D363CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1C40F5-0DC9-4CC0-9CBA-ACF94646A1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1C40F5-0DC9-4CC0-9CBA-ACF94646A1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1C40F5-0DC9-4CC0-9CBA-ACF94646A1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1C40F5-0DC9-4CC0-9CBA-ACF94646A1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89128916-71C8-4C22-880C-49EE7E0D8C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89128916-71C8-4C22-880C-49EE7E0D8C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89128916-71C8-4C22-880C-49EE7E0D8C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89128916-71C8-4C22-880C-49EE7E0D8C10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BA09906-713E-4A97-9E72-84AD247D7A62} = {7F83103C-1089-4953-9D70-14C2DFD4548A}
+		{7464E514-667D-4B43-BF6D-F7F8C9E4CD82} = {262BA8D3-B18B-43B6-9879-999161EBE49B}
+		{1B5F5FB3-71A1-4233-964D-61E23D363CFB} = {12B39502-19B9-4009-8683-506D4CA48FAF}
+		{4B1C40F5-0DC9-4CC0-9CBA-ACF94646A1AB} = {4B771E12-016C-490A-AC45-562DFBC3795D}
+		{89128916-71C8-4C22-880C-49EE7E0D8C10} = {4B771E12-016C-490A-AC45-562DFBC3795D}
+	EndGlobalSection
+EndGlobal
